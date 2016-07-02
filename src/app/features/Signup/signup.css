@@ -1,0 +1,16 @@
+body{
+  background-color: darkslateblue;
+  color:white;
+}
+
+.login-container{
+  padding: 50px;
+}
+#loginhead{
+  text-align:center;
+  font-weight: bold;
+  /*color: #031017;*/
+}
+#loginbody{
+  width: 30%; margin:25px auto;
+}
