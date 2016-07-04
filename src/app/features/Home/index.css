@@ -1,12 +1,39 @@
 
 body{
+  /*background-color: darkcyan;*/
   background-image: url("http://www.picz.ge/img/s2/1507/23/9/9d893961cc39.jpg");
   /*background-image: url("http://feelgrafix.com/data_images/out/28/963500-age-of-ultron.jpg");*/
   /*background-image: url("http://hdwallpicx.com/wp-content/uploads/2015/03/alvin-and-the-chipmunks-road-chip-2015-movie-wallpapers-hd-1366X768-desktop-01.jpg");*/
-
+  /*background-size: 100%;*/
+  background-size: cover;
+}
+.navbar-primary{
+  background-color: rgba(0,0,0,0.6);
+}
+.nav-tabs{
+  background-color: rgba(0,0,0,0.3);
 }
 
 .home-options{
-
   padding: 300px;
 }
+
+.section-container{
+  width: auto;height: 500px; background: darkslategray; opacity: 0.9;color: white;
+}
+
+.nav-tabs{
+  font-weight: bold;
+}
+footer{
+  padding: 20px;
+  background-color: #031017;
+  text-align: center;
+}
+video{
+  max-width: 400px;
+}
+.giphy-embed{
+  width:480px; height:270px;
+}
+
