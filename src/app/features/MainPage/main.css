@@ -1,0 +1,64 @@
+body{
+/*background: rgba(63, 64, 57, 0.63);*/
+  background: black;
+}
+.navbar-default{
+  background-color: rgba(0,20,0,1);
+}
+.jumbotron{
+  background-color:rgba(80,20,50,0.5);
+  color: white;
+  border: 3px solid greenyellow;
+}
+section{
+  border-radius: 2em;
+  border:1px solid greenyellow;
+  background: rgba(80,20,50,0.5);
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.row{}
+.img-rounded{
+
+  border: 3px solid red;
+  margin-top: 10px;
+}
+img{
+  width:185px;
+  height: 200px;
+}
+footer{
+  margin-top: 5px;
+  padding: 20px;
+  background-color: #031017;
+  text-align: center;
+}
+hr.style-seven {
+  height: 30px;
+  border-style: dotted;
+  border-color: white;
+  border-width: 1px 0 0 0;
+  border-radius: 20px;
+  margin-bottom: -10px;
+}
+hr.style-seven:before { /* Not really supposed to work, but does */
+  display: block;
+  content: "";
+  height: 30px;
+  margin-top: -31px;
+  border-style: dotted;
+  border-color: white;
+  border-width: 0 0 1px 0;
+  border-radius: 20px;
+}
+.sec-heading1{
+  color: white;
+  font-weight: bold;
+}
+.sec-heading2{
+  margin-top: 20px;
+  color: white;
+  font-weight: bold;
+}
